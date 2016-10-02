@@ -1,0 +1,74 @@
+    <h1>Contribution Guide</h1>
+
+        <h2>General Notes</h2>
+        <p>Thank you for being willing to contiribute to our project. We are trying to make a D&D style game that is based entirely on skills. This means no levels and no classes. If you want a skill your character will study the skill and then be able to start
+            using it.
+        </p>
+        <p>If you stumble on this project and would like to help, please contact us and we will probably take you up on the help! We are all hobbyists so our dev style is somewhat crude and we are doing more learning along the way. We have a good set of
+            rules and if you are outside of our gaming group, chances are you will not understand them. However we will try to incudle them in the <b>RULES</b> doc.
+        </p>
+
+        <h2>Style Guide</h2>
+        <h2>Recommended Data Types</h2>
+        <table>
+            <tr>
+                <th>data type</th>
+                <th>default max length</th>
+                <th>specify length?</th>
+                <th>notes</th>
+            </tr>
+            <tr>
+                <td>TINYINT</td>
+                <td>3</td>
+                <td>yes</td>
+                <td>-128 to 127 or 0 to 255</td>
+            </tr>
+            <tr>
+                <td>SMALLINT</td>
+                <td>5</td>
+                <td>yes</td>
+                <td>-32768 to 32767 or 0 to 65535</td>
+            </tr>
+            <tr>
+                <td>DECIMAL</td>
+                <td>10</td>
+                <td>yes</td>
+                <td>specified max length 65.30</td>
+            </tr>
+            <tr>
+                <td>CHAR</td>
+                <td>255</td>
+                <td>yes</td>
+                <td>right padded with spaces</td>
+            </tr>
+            <tr>
+                <td>VARCHAR</td>
+                <td>65535</td>
+                <td>yes</td>
+                <td>doesn't remove training spaces</td>
+            </tr>
+            <tr>
+                <td>TINYTEXT</td>
+                <td>255</td>
+                <td>no</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>TEXT</td>
+                <td></td>
+                <td>no</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>INT</td>
+                <td></td>
+                <td>no</td>
+                <td>used for IDs</td>
+            </tr>
+        </table>>
+
+        <h2>To Do</h2>
+        <ul>
+            <li>get the site set up</li>
+
+        </ul>
